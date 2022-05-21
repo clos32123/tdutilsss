@@ -1,0 +1,11 @@
+{
+  "name": "LOS/tdutilsss",
+    }
+  },
+  "env": [
+    {
+      "name": "#general",
+      "description": "Channel to receive notifications to, i.e. #general"
+    }
+  ]
+}
