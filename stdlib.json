@@ -1,7 +1,6 @@
-{
-  "name": "LOS/tdutilsss",
-    }
-  },
+  "name": "clos32123/tdutilsss",
+  "timeout": 10000,
+  "connector": false,
   "env": [
     {
       "name": "#general",
