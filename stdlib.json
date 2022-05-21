@@ -1,9 +1,18 @@
-  "name": "clos32123/tdutilsss",
+{
+  "name": "username/my-stripe-notifications",
   "timeout": 10000,
   "connector": false,
+  "events": {
+    "functions/events/stripe/customer/created.js": {
+      "name": "stripe.customer.created"
+    },
+    "functions/events/stripe/invoice/created.js": {
+      "name": "stripe.invoice.created"
+    }
+  },
   "env": [
     {
-      "name": "#general",
+      "name": "SLACK_CHANNEL",
       "description": "Channel to receive notifications to, i.e. #general"
     }
   ]
